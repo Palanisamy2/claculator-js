@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="javascript.js">
+          </script>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+               
+            <div class="buttons">
+
+                <div class="screen-dis">
+                    <input placeholder="0" id="screen-display">
+                </div>
+
+                <div class="button-row1">
+                    <button onclick="alc()" value="alc" id="btn-ac">AC</button>
+                    <button onclick="del()" value="del" id="btn-del">DEL</button>
+                    <button onclick="display('/')" value="/" id="btn-divide">/</button>
+                </div>
+                <div class="button-row2">
+                    <button onclick="display('1')" value="1" id="btn-1">1</button>
+                    <button onclick="display('2')" value="2" id="btn-2">2</button>
+                    <button onclick="display('3')" value="3" id="btn-3">3</button>
+                    <button onclick="display('*')" value="*" id="btn-multiplication">*</button>
+                </div>
+                <div class="button-row3">
+                    <button onclick="display('4')" value="4" id="btn-4">4</button>
+                    <button onclick="display('5')" value="5" id="btn-5">5</button>
+                    <button onclick="display('6')" value="6" id="btn-6">6</button>
+                    <button onclick="display('-')" value="-" id="btn-substract">-</button>
+                </div>
+                <div class="button-row4">
+                    <button onclick="display('7')" value="7" id="btn-7">7</button>
+                    <button onclick="display('8')" value="8" id="btn-8">8</button>
+                    <button onclick="display('9')" value="9" id="btn-9">9</button>
+                    <button onclick="display('+')" value="+" id="btn-addition">+</button>
+                </div>
+                <div class="button-row5">
+                    <button onclick="display('.')" value="." id="btn-dot">.</button>
+                    <button onclick="display('0')" value="0" id="btn-0">0</button>
+                    <button onclick="result()" value="=" id="btn-equal">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
